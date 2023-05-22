@@ -4,10 +4,17 @@
   --grid-gutter: 1.5rem;
 }
 
+#root {
+  height: 100vh;
+}
+
 .container {
   max-width: var(--container-width);
   margin-left: auto;
   margin-right: auto;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 
   padding-left: calc(0.5 * var(--grid-gutter));
   padding-right: calc(0.5 * var(--grid-gutter));

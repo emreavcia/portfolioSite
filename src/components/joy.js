@@ -1,5 +1,5 @@
 const Joy = () => {
-  return <></>;
+  return <div>Joy</div>;
 };
 
 export default Joy;
