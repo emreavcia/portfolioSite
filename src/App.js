@@ -1,5 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
+import "./css/colors.css";
+
 import Joy from "./components/Joy";
 import About from "./components/About";
 import Contact from "./components/Contact";
