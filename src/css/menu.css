@@ -2,6 +2,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-block: 2em;
+  border: 1px solid red;
+  background: var(--color-bg-dark);
 }
 
 .navigation__list {

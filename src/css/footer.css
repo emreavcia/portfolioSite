@@ -12,10 +12,10 @@ footer {
 .social-media-icons a {
   text-decoration: none;
   font-size: 1.5rem;
-  color: #003366;
+  color: var(--color-icon-dark);
   transition: color 0.3s ease;
 }
 
 .social-media-icons a:hover {
-  color: #3399ff;
+  color: var(--color-icon-light);
 }

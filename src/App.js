@@ -10,6 +10,7 @@ import Menu from "./components/Menu";
 
 import "./css/grid.css";
 import "./css/body.css";
+import "./css/reset.css";
 
 function App() {
   return (
