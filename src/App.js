@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 
 import "./css/colors.css";
 
-import Joy from "./components/Joy";
+import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -16,7 +16,7 @@ function App() {
     <div className="container">
       <Menu />
       <Routes>
-        <Route path="/" element={<Joy />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
