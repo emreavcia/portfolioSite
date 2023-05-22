@@ -12,7 +12,6 @@ const Menu = () => {
             <Link to="/about">ABOUT</Link>
           </li>
           <li>
-            {" "}
             <Link to="/contact">CONTACT</Link>
           </li>
         </ul>
