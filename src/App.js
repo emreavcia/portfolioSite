@@ -1,7 +1,7 @@
-import "./App.css";
+import "./css/grid.css";
 
 function App() {
-  return <></>;
+  return <div className="container">Emre</div>;
 }
 
 export default App;
