@@ -13,7 +13,7 @@ import "./css/body.css";
 
 function App() {
   return (
-    <div className="container">
+    <main className="container">
       <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
-    </div>
+    </main>
   );
 }
 
