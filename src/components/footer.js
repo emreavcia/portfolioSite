@@ -1,4 +1,7 @@
 import "../css/footer.css";
+
+import { Link } from "react-router-dom";
+
 import { SiLinkedin, SiGithub } from "react-icons/si";
 
 const Footer = () => {
@@ -12,16 +15,16 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <SiGithub />
-          </a>{" "}
+          </a>
         </li>
         <li className="social-media-icon">
-          <a
-            href="https://www.linkedin.com/in/emre-avci-765888220/"
+          <Link
+            to="https://www.linkedin.com/in/emre-avci-765888220/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <SiLinkedin />
-          </a>
+          </Link>
         </li>
       </ul>
     </footer>

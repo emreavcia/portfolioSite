@@ -1,6 +1,6 @@
 footer {
   background-color: var(--color-bg-dark);
-  padding: 1em;
+  padding: 2em 1em;
 }
 
 .social-media-icons {
@@ -12,10 +12,10 @@ footer {
 .social-media-icons a {
   text-decoration: none;
   font-size: 1.5rem;
-  color: var(--color-icon-dark);
+  color: var(--color-link-dark);
   transition: color 0.3s ease;
 }
 
 .social-media-icons a:hover {
-  color: var(--color-icon-light);
+  color: var(--color-link-light);
 }

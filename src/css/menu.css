@@ -2,13 +2,29 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 2em;
-  border: 1px solid red;
+  padding: 2em;
   background: var(--color-bg-dark);
+}
+
+.logo {
+  font-size: x-large;
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+  color: var(--color-link-dark);
 }
 
 .navigation__list {
   display: flex;
   gap: var(--grid-gutter);
   list-style: none;
+}
+
+.navigation__list__item a {
+  color: #003366;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navigation__list__item a:hover {
+  color: #3399ff;
 }
